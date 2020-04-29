@@ -1,0 +1,57 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__6740834",
+  "name": "食堂",
+  "version": {
+    "name": "1.0.0",
+    "code": 100
+  },
+  "description": "配置食品",
+  "launch_path": "__uniappservice.html",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {},
+  "plus": {
+    "useragent": {
+      "value": "uni-app appservice",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "target": "id:1",
+      "autoclose": true,
+      "waiting": true,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "render": "always"
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "dark",
+      "background": "#ffffff"
+    },
+    "allowsInlineMediaPlayback": true,
+    "distribute": {
+      "plugins": {
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "uni-app": {
+      "compilerVersion": "2.0.0",
+      "control": "webview",
+      "nvueCompiler": "weex"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+<template name="e5b2f556"><view class="_view Me5b2f556 notWork"><view class="_view Me5b2f556"><image src="../../static/notWork.png" mode class="_image Me5b2f556"></image></view><text class="_text Me5b2f556">咦!咋木有网了呢~</text><view bindtap="handleProxy" class="_view Me5b2f556 refleshBtn" data-eventid="{{'e5b2f556-0'}}" data-comkey="{{$k}}">刷新</view></view></template>

@@ -1,0 +1,2 @@
+<import src="./uphold.vue.wxml" />
+    <template is="0129b875" data="{{ ...$root['0'], $root }}"/>

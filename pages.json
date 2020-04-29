@@ -1,0 +1,56 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "食堂端"
+		}
+	}, {
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarTitleText": "饭菜喷香食堂管理"
+		}
+	}, {
+		"path": "pages/forgetPwd/forgetPwd",
+		"style": {
+			"navigationBarTitleText": "饭菜喷香食堂管理"
+		}
+	}, {
+		"path": "pages/setPwd/setPwd",
+		"style": {
+			"navigationBarTitleText": "饭菜喷香食堂管理"
+		}
+	}, {
+		"path": "pages/booked/booked",
+		"style": {
+			"navigationBarTitleText": "已预订菜品"
+		}
+	}, {
+		"path": "pages/maintain/maintain",
+		"style": {
+			"navigationBarTitleText": "菜品维护"
+		}
+	},{
+		"path": "pages/veriy/index",
+		"style": {
+			"navigationBarTitleText": "验证结果"
+		}
+	},{
+            "path" : "pages/uphold/uphold",
+            "style" : {
+				"navigationBarTitleText": "菜品维护"
+			}
+        },{
+            "path" : "pages/notNetwork/notNetwork",
+            "style" : {
+				"navigationBarTitleText": "网络错误"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "食堂端",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#333333"
+	}
+}

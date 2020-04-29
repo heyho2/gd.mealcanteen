@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "菜品维护",
+  "usingComponents": {
+    "selectlist": "/components/selectFoodsList",
+    "selecttime": "/components/selectTime",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

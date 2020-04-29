@@ -1,0 +1,35 @@
+{
+    "name" : "食堂",
+    "appid" : "__UNI__6740834",
+    "description" : "配置食品",
+    "transformPx" : false,
+    "icons" : [
+        {
+            "sizes" : "分辨率，192x192",
+            "src" : "图片路径"
+        }
+    ],
+    "versionName" : "1.0.0",
+    "versionCode" : 100,
+    "app-plus" : {},
+    // 5+App特有相关
+    "quickapp" : {},
+    // 快应用特有相关
+    "mp-weixin" : {
+        "appid" : "wx54225ff41ff50814",
+        "setting" : {
+            "es6" : true,
+            "postcss" : true,
+            "minified" : false,
+            "urlCheck" : false
+        },
+        "permission" : {}
+    },
+    "mp-baidu" : {},
+    "h5" : {
+        "title" : "食堂",
+        "domain" : "http://m.ghysjt.com"
+    }
+}
+// 小程序特有相关
+

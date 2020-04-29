@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/forgetPwd/forgetPwd",
+    "pages/setPwd/setPwd",
+    "pages/booked/booked",
+    "pages/maintain/maintain",
+    "pages/veriy/index",
+    "pages/uphold/uphold",
+    "pages/notNetwork/notNetwork"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "食堂端",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#333333"
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

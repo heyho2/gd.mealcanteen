@@ -1,0 +1,1 @@
+<view class="notWork"><view><image src="../../static/notWork.png" mode></image></view><text>咦!咋木有网了呢~</text><view data-event-opts="{{[['tap',[['reflesh',['$event']]]]]}}" class="refleshBtn" bindtap="__e">刷新</view></view>

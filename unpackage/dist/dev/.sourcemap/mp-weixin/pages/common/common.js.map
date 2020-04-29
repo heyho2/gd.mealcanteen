@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///E:/project/watchPic/main.js"],"names":["Page","App"],"mappings":";;;;;;;;;;AAAA;AACA;AACI,+I;AACAA,IAAI,CAAC,+BAAYC,eAAZ,CAAD,CAAJ,C","file":"pages/common/common.js","sourcesContent":["import 'uni-pages';\nimport pageFactory from 'mpvue-page-factory'\n    import App from './pages/common/common.vue'\n    Page(pageFactory(App))"],"sourceRoot":""}

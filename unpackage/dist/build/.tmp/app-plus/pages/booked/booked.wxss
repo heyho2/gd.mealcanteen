@@ -1,0 +1,173 @@
+.booked {
+  width: 750rpx;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.booked .noData {
+  width: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.booked .noData image {
+  width: 673rpx;
+  height: 604rpx;
+}
+.booked .selectDate {
+  width: 100%;
+  white-space: nowrap;
+  background-color: #fff;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.booked .selectDate .scroll-view_x {
+  width: 100%;
+  height: 100rpx;
+}
+.booked .selectDate .scroll-view_x .wrapContent {
+  width: 100%;
+  height: 100rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.booked .selectDate .scroll-view_x .item {
+  display: inline-block;
+  width: 190rpx;
+  height: 100rpx;
+  line-height: 30rpx;
+  text-align: center;
+}
+.booked .selectDate .scroll-view_x .item text {
+  display: block;
+  color: #333;
+}
+.booked .selectDate .scroll-view_x .item text.week {
+  font-size: 12px;
+  margin-top: 16rpx;
+}
+.booked .selectDate .scroll-view_x .item text.data {
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}
+.booked .selectDate .scroll-view_x .item.active {
+  background-color: #ffc843;
+}
+.booked .selectDate .scroll-view_x .wrapContent {
+  width: 100%;
+  background-color: #fff;
+  padding: 0 30rpx;
+}
+.booked .bookedContent {
+  padding: 10rpx 20rpx 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.booked .bookedContent .item {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20rpx;
+  -webkit-border-radius: 15rpx;
+          border-radius: 15rpx;
+  padding: 0 30rpx;
+  background-color: #fff;
+  overflow: hidden;
+}
+.booked .bookedContent .item .title {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 50rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10rpx 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+.booked .bookedContent .item .title text {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: left;
+  color: #333;
+  font-weight: 600;
+  font-size: 36rpx;
+  font-family: 'PingFangSC-Medium';
+}
+.booked .bookedContent .item .title text.status {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120rpx;
+  height: 40rpx;
+  -webkit-transform: translateX(30rpx);
+      -ms-transform: translateX(30rpx);
+          transform: translateX(30rpx);
+  color: red;
+  font-size: 28rpx;
+  text-align: center;
+  color: #fff;
+  background-color: #ff4343;
+  -webkit-border-bottom-left-radius: 15rpx;
+          border-bottom-left-radius: 15rpx;
+}
+.booked .bookedContent .item .title text.status.active {
+  color: #999;
+  background-color: #b3b3b3;
+}
+.booked .bookedContent .item .contentList {
+  display: block;
+  margin-top: 5rpx;
+  background-color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30rpx 0;
+}
+.booked .bookedContent .item .contentList view {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.booked .bookedContent .item .contentList view text {
+  font-size: 28rpx;
+  padding-bottom: 30rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: left;
+  color: #666;
+}
+.booked .bookedContent .item .contentList view text.count {
+  text-align: right;
+  -webkit-box-flex: 0.4;
+  -webkit-flex: 0.4;
+      -ms-flex: 0.4;
+          flex: 0.4;
+}
+
